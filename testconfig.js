@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const cuid = require('cuid')
 const connect = require('./exercises/connect')
-const url = 'mongodb://localhost:27017/intro-mongodb-testing'
+const url = 'mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb'
 
 global.newId = () => {
   return mongoose.Types.ObjectId()
