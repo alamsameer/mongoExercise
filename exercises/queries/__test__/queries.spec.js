@@ -2,7 +2,7 @@ const {
   postByTitle,
   postByContentLength,
   postsForAuthor,
-  fullPostById,
+  fullPostById, 
   allPostsSlim,
   addSimilarPosts
 } = require('../queries')
